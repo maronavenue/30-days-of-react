@@ -12,4 +12,4 @@
 ![Lab 1 screenshot](./images/lab-1.png)
 
 ### Source code
-TBA
+Branch: [lab-1-base-syntax](https://github.com/maronavenue/30-days-of-react/tree/lab-1-base-syntax)
