@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
 import './App.css';
-import Profile from './Profile/Profile';
+import UserOutput from './UserOutput/UserOutput';
+import UserInput from './UserInput/UserInput';
 
 class App extends Component {
   state = {
-    profiles: [
-      {name: 'Maron', gender: 'Male', job: 'Software Engineer'},
-      {name: 'Micah', gender: 'Male', job: 'Multimedia Artist'},
-      {name: 'Wiona', gender: 'Female', job: 'Risk Operations Analyst'},
-      {name: 'Joshua', gender: 'Male', job: 'Student'}
-    ]
-  }
+    usernames: [
+    'hachiman',
+    'yuigahama',
+    'yukinoshita',
+    'irohasu'
+  ]}
 
-  nameChangeHandler = (event) => {
+  usernameChangeHandler = (event) => {
     this.setState({
-      profiles: [
-        {name: event.target.value, gender: 'Male', job: 'Software Engineer'},
-        {name: 'Micah', gender: 'Male', job: 'Multimedia Artist'},
-        {name: 'Wiona', gender: 'Female', job: 'Risk Operations Analyst'},
-        {name: 'Joshua', gender: 'Male', job: 'Student'}
+      usernames: [
+        event.target.value,
+        'yuigahama',
+        'yukinoshita',
+        'irohasu'
       ]
     })
   }
@@ -26,21 +26,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Profile
-          name={this.state.profiles[0].name}
-          gender={this.state.profiles[0].gender}
-          job={this.state.profiles[0].job}
-          changed={this.nameChangeHandler}/>
-        <Profile
-          name={this.state.profiles[1].name}
-          gender={this.state.profiles[1].gender}
-          job={this.state.profiles[1].job}
-          changed={this.nameChangeHandler}/>
-        <Profile
-          name={this.state.profiles[2].name}
-          gender={this.state.profiles[2].gender}
-          job={this.state.profiles[2].job}
-          changed={this.nameChangeHandler}/>
+        <UserOutput username={this.state.usernames[0]}/>
+        <UserInput changed={this.usernameChangeHandler} username={this.state.usernames[0]}/>
+        <UserOutput username={this.state.usernames[1]}/>
+        <UserOutput username={this.state.usernames[2]}/>
+        <UserOutput username={this.state.usernames[3]}/>
       </div>
     );
   }
