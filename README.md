@@ -28,4 +28,4 @@ Branch: [lab-1-base-syntax](https://github.com/maronavenue/30-days-of-react/tree
 ![Lab 2 console](./images/lab-2b.png)
 
 ### Source code
-Branch: [lab-1-base-syntax](https://github.com/maronavenue/30-days-of-react/tree/lab-1-base-syntax)
+Branch: [lab-2-lists-and-conditionals](https://github.com/maronavenue/30-days-of-react/tree/lab-2-lists-and-conditionals)
