@@ -13,3 +13,19 @@
 
 ### Source code
 Branch: [lab-1-base-syntax](https://github.com/maronavenue/30-days-of-react/tree/lab-1-base-syntax)
+
+## Lab 2 - Lists and Conditionals
+### Checklist
+  1. Create **ValidationComponent** to validate input length at length condition. Just a `stateless component`
+  1. Create **CharComponent** that will hold each character of the input string as element and will be rendered as inline blocks
+  1. Make use of proper `key props` for the list
+  1. Handle basic `string` and `list` manipulations and also delete the element in the `state` when a **CharComponent** is clicked
+  1. Play around with CSS styling and **`currying` functions**.
+
+### Sample Output
+![Lab 2 screenshot](./images/lab-2a.png)
+
+![Lab 2 console](./images/lab-2b.png)
+
+### Source code
+Branch: [lab-1-base-syntax](https://github.com/maronavenue/30-days-of-react/tree/lab-1-base-syntax)
