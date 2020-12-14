@@ -1,4 +1,6 @@
 # 30 Days of React
+  * **`Day 1 (12/13/20):`** Base syntax and project structure with best practices including build workflow, e.g. Babel, Webpack
+  * **`Day 2 (12/14/20):`** Lists and Conditionals including `key props`
 
 ## Lab 1 - Base syntax
 ### Checklist
