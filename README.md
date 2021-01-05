@@ -31,5 +31,3 @@ Branch: [lab-1-base-syntax](https://github.com/maronavenue/30-days-of-react/tree
 
 ### Source code
 Branch: [lab-2-lists-and-conditionals](https://github.com/maronavenue/30-days-of-react/tree/lab-2-lists-and-conditionals)
-
-Rest to follow
